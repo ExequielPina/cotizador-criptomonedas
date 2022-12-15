@@ -4,6 +4,7 @@ import ImagenCripto from './img/imagen-criptos.png'
 import Formulario from './components/Formulario'
 
 
+
 const Headin = styled.h1`
   font-family: 'Lato', sans-serif;
   color: #fff;
@@ -49,7 +50,7 @@ function App() {
       <Imagen src={ImagenCripto} alt="imagenes-criptomonedas"></Imagen>
       <div>
         <Headin>Cotizador de criptomonedas al instante</Headin>
-        
+
         <Formulario/>
       </div>
       
